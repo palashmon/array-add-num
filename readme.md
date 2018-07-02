@@ -1,4 +1,4 @@
-# array-add-num [![Build Status](https://travis-ci.org/palashmon/array-add-num.svg?branch=master)](https://travis-ci.org/palashmon/array-add-num)
+# array-add-num [![Build Status](https://travis-ci.org/palashmon/array-add-num.svg?branch=master)](https://travis-ci.org/palashmon/array-add-num) [![Greenkeeper badge](https://badges.greenkeeper.io/palashmon/array-add-num.svg)](https://greenkeeper.io/)
 
 > Add up all the numbers in the array
 

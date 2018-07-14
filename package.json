@@ -14,7 +14,7 @@
 	},
 	"scripts": {
 		"test": "xo && ava",
-		"cover": "nyc ava"
+		"cover": "nyc --reporter=lcov ava"
 	},
 	"files": [
 		"index.js"

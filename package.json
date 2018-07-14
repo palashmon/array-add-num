@@ -13,7 +13,8 @@
 		"node": ">=8"
 	},
 	"scripts": {
-		"test": "xo && ava"
+		"test": "xo && ava",
+		"cover": "nyc ava"
 	},
 	"files": [
 		"index.js"
@@ -29,6 +30,7 @@
 	],
 	"devDependencies": {
 		"ava": "^0.25.0",
+		"nyc": "^12.0.2",
 		"xo": "^0.21.0"
 	}
 }

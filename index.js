@@ -6,18 +6,18 @@
  * @returns {number|TypeError} The computed sum of all finite numbers in the array, or a TypeError if the input is not an array.
  */
 function arrayAdd(input = []) {
-  if (!Array.isArray(input)) {
-    throw new TypeError(`Expected an array, got ${typeof input}`);
-  }
+	if (!Array.isArray(input)) {
+		throw new TypeError(`Expected an array, got ${typeof input}`);
+	}
 
-  const filteredArray = input.filter((value) => Number.isFinite(Number(value)));
+	const filteredArray = input.filter(value => Number.isFinite(Number(value)));
 
-  let sum = 0;
-  for (const value of filteredArray) {
-    sum += Number(value);
-  }
+	let sum = 0;
+	for (const value of filteredArray) {
+		sum += Number(value);
+	}
 
-  return sum;
+	return sum;
 }
 
 export default arrayAdd;

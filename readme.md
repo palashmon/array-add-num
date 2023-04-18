@@ -1,8 +1,7 @@
 # array-add-num
 
-[![Build Status](https://travis-ci.org/palashmon/array-add-num.svg?branch=master)](https://travis-ci.org/palashmon/array-add-num)
+![CI](https://github.com/palashmon/array-add-num/actions/workflows/main.yaml/badge.svg)
 [![npm](https://img.shields.io/npm/v/array-add-num.svg)](https://www.npmjs.org/package/array-add-num)
-[![codecov](https://codecov.io/gh/palashmon/array-add-num/branch/master/graph/badge.svg)](https://codecov.io/gh/palashmon/array-add-num)
 [![Gzip Size](https://img.badgesize.io/https://unpkg.com/array-add-num?compression=gzip)](https://bundlephobia.com/result?p=array-add-num)
 
 

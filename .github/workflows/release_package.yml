@@ -63,7 +63,14 @@ jobs:
 
       # Update changelog unreleased section with new version
       - name: Update changelog
+        id: changelog-ci
         uses: saadmk11/changelog-ci@v1.1.2
+        with:
+          release_version: ${{ env.NEW_VERSION }}
+
+      - name: Get Changelog Output
+        run: |
+          echo "${{ steps.changelog-ci.outputs.changelog }}"
 
       # Commit changes
       - name: Commit CHANGELOG.md and package.json changes and create tag

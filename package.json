@@ -1,6 +1,6 @@
 {
 	"name": "array-add-num",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"description": "Add up all the numbers in the array",
 	"license": "MIT",
 	"repository": "https://github.com/palashmon/array-add-num",

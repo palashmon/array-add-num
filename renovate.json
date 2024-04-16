@@ -1,34 +1,6 @@
 {
-  "extends": [
-    "config:base",
-    ":automergeMinor",
-    ":automergePr",
-    ":automergeDigest",
-    ":labels(dependencies)",
-    ":rebaseStalePrs",
-    ":enableVulnerabilityAlerts",
-    ":disableDependencyDashboard",
-    ":timezone(Asia/Kolkata)"
-  ],
-  "rebaseWhen": "conflicted",
-  "enabledManagers": [
-    "npm",
-    "github-actions"
-  ],
-  "branchPrefix": "renovate/",
-  "platformAutomerge": true,
-  "rangeStrategy": "bump",
-  "major": {
-    "enabled": false
-  },
-  "packageRules": [
-    {
-      "description": "Automerge non-major updates",
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
-      "automerge": true
-    }
-  ]
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": [
+		"github>palashmon/renovate-config"
+	]
 }

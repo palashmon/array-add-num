@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "pinVersions": false,
+  "rebaseWhen": "conflicted",
+  "enabledManagers": [
+    "npm",
+    "github-actions"
+  ],
+  "branchPrefix": "renovate/",
+  "automergeType": "pr",
+  "automerge": true,
+  "platformAutomerge": true,
+  "prConcurrentLimit": 30,
+  "prHourlyLimit": 2,
+  "rangeStrategy": "bump",
+  "major": {
+    "enabled": false
+  }
+}

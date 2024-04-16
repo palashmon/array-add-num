@@ -1,8 +1,0 @@
-pull_request_title_regex: '*'
-changelog_type: pull_request  # or commit_message
-header_prefix: ""
-commit_changelog: true
-comment_changelog: true
-include_unlabeled_changes: true
-version_regex: >  # example: '2.1.0 - (2022-06-17)'
-  '?([0-9]{1,2})+[.]+([0-9]{1,2})+[.]+([0-9]{1,2})\s\-\s\(\d{1,2}-\d{1,2}-\d{4}\)'

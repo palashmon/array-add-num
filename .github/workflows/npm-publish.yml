@@ -1,7 +1,8 @@
 name: Publish NPM Release
 on:
-  release:
-    types: [published]
+  workflow_run:
+    workflows: ["GitHub Release"]
+    types: [completed]
 jobs:
   build:
     runs-on: ubuntu-latest

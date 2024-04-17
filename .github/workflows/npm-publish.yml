@@ -113,6 +113,6 @@ jobs:
           node-version: "20.x"
           registry-url: "https://registry.npmjs.org"
       - run: npm i
-      - run: npm publish
+      - run: npm publish --tag=latest --dry-run
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}

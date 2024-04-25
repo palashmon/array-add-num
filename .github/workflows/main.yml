@@ -5,11 +5,9 @@ on:
     branches:
       - main
       - master
-  pull_request: # PRs to main and master branches
+  pull_request: # PRs to main branches
   workflow_dispatch: # manual trigger
 
-# Control the concurrency of workflow runs
-# so that you can ensure that only one workflow runs at a time in a specific context.
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.number || github.sha }}
   cancel-in-progress: true
